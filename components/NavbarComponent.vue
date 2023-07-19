@@ -1,6 +1,8 @@
 <template>
 <div>
-
+    
+<!-- top navbar -->
+ <section>
     <nav class=" border-gray-200  dark:border-gray-700">
         <div class="max-w-screen-l flex flex-wrap items-center justify-between mx-auto p-3">
             <a href="#" class="flex items-center">
@@ -75,6 +77,7 @@
         </div>
 
     </nav>
+ </section>
 
 </div>
 </template>
