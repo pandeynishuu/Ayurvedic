@@ -1,8 +1,8 @@
 <template>
     <div>
-        <header>
-            <NavbarComponent></NavbarComponent>
-        </header>
+     
+            <NavbarComponent class="fixed w-full z-50"/>
+        
         <main>
             <slot></slot>
         </main>
@@ -13,15 +13,9 @@
 </template>
 
 <script setup>
-import { onMounted } from 'vue'
-import { initFlowbite } from 'flowbite'
 
-// initialize components based on data attribute selectors
-onMounted(() => {
-    initFlowbite();
-})
 </script>
 
-<style lang="scss" scoped>
+<style scoped>
 
 </style>

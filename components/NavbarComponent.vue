@@ -1,12 +1,12 @@
 <template>
 <div>
-    
+
 <!-- top navbar -->
  <section>
     <nav class=" border-gray-200  dark:border-gray-700">
         <div class="max-w-screen-l flex flex-wrap items-center justify-between mx-auto p-3">
             <a href="#" class="flex items-center">
-                <img src="~/assets/images/logo.svg" class="h-5 mr-3" alt="Flowbite Logo" />
+                <img src="~/assets/images/logo.svg" class="h-5 mr-3 ml-9" alt="Flowbite Logo" />
 
             </a>
             <button data-collapse-toggle="navbar-multi-level" type="button" class="inline-flex items-center p-2 w-10 h-5 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-multi-level" aria-expanded="false">
@@ -72,12 +72,13 @@
                 </ul>
             </div> -->
             <div>
-                <button class="btn">Buy Now</button>
+                <button class="btn mr-9">Buy Now</button>
             </div>
         </div>
 
     </nav>
  </section>
+
 
 </div>
 </template>
